@@ -42,6 +42,7 @@ public class CadastroCliente extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
+        tbClientes.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         tbClientes.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null, null, null, null, null, null},
