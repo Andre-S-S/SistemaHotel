@@ -232,6 +232,11 @@ public class AdicionarCliente extends javax.swing.JFrame {
         btnAdicionar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnAdicionar.setIcon(new javax.swing.ImageIcon("C:\\Users\\andre\\Documents\\NetBeansProject\\Hotel\\src\\main\\java\\br\\com\\unipar\\imagens\\adicionar.png")); // NOI18N
         btnAdicionar.setText("Adicionar");
+        btnAdicionar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAdicionarActionPerformed(evt);
+            }
+        });
 
         btnFechar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnFechar.setIcon(new javax.swing.ImageIcon("C:\\Users\\andre\\Documents\\NetBeansProject\\Hotel\\src\\main\\java\\br\\com\\unipar\\imagens\\fechar.png")); // NOI18N
@@ -276,6 +281,10 @@ public class AdicionarCliente extends javax.swing.JFrame {
     private void btnFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFecharActionPerformed
         this.dispose();
     }//GEN-LAST:event_btnFecharActionPerformed
+
+    private void btnAdicionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAdicionarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnAdicionarActionPerformed
 
     /**
      * @param args the command line arguments

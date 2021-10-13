@@ -22,6 +22,19 @@ public class Cliente {
     private String endereco;
     private int numero;
     private List<Cliente> clientes = new ArrayList<>();
+    
+    public Cliente() {
+        
+    }
+    
+    public Cliente(String nome) {
+        this.nome = nome;
+    }
+    
+    public void adicionar(Cliente cliente) {
+        cliente.getNome();
+        clientes.add(cliente);
+    }
 
     public long getId() {
         return id;
